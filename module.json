@@ -1,0 +1,41 @@
+{
+  "id": "ult-ld",
+  "title": "ULT's Loading Screen",
+  "description": "A fully customizable, immersive loading screen that replaces Foundry's default loading overlay. Features a simulated progress bar synchronized with real world loading, stage text, rotating lore tips, a configurable palette, custom background image and icon, a simplified mode, and full interaction blocking.",
+  "version": "1.1.0",
+  "authors": [
+    {
+      "name": "4isfate"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/loading.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    }
+  ],
+  "license": "MIT",
+  "readme": "README.md"
+}
